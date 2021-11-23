@@ -1,4 +1,4 @@
-const
+nonst
 	{
 		WAConnection: _WAConnection,
 		MessageType,
@@ -1241,27 +1241,27 @@ const bayarLimit = (sender, amount) => {
             
             const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')
         if(time2 < "23:59:00"){
-        var ucapannya2 = `Night 🌚 ${pushname}`
+        var ucapannya2 = `Selamat Malam 🌚 ${pushname}`
 }
         if(time2 < "19:00:00"){
-        var ucapannya2 = `Night 🌚 ${pushname}`
+        var ucapannya2 = `Selamat Malam 🌚 ${pushname}`
 }
         if(time2 < "18:00:00"){
-        var ucapannya2 = `Afternoon 🌅 ${pushname}`
+        var ucapannya2 = `Selamat Sore 🌅 ${pushname}`
 }
         if(time2 < "15:00:00"){
-        var ucapannya2 = `GoodDay 🌞 ${pushname}`
+        var ucapannya2 = `Selamat Siang 🌞 ${pushname}`
 }
         if(time2 < "11:00:00"){
-        var ucapannya2 = `Morning 🌄 ${pushname}`
+        var ucapannya2 = `Selamat Pagi 🌄 ${pushname}`
 }
         if(time2 < "05:00:00"){
-        var ucapannya2 = `Night 🌚 ${pushname}`
+        var ucapannya2 = `Selamat Malam 🌚 ${pushname}`
 }
 function _0x5119(_0x5301ed,_0x4bdeff){const _0x4d484a=_0x4d48();return _0x5119=function(_0x5119ed,_0x514696){_0x5119ed=_0x5119ed-0x125;let _0x41233c=_0x4d484a[_0x5119ed];return _0x41233c;},_0x5119(_0x5301ed,_0x4bdeff);}function _0x4d48(){const _0x1136ef=['setStatus','4495827nZGfsy','padStart','floor','168TLrYoW','2504iOUJqx','4149wwROTc','I\x27m\x20Userbot\x20🤖\x20|\x20Runtime\x20','188nwguEu','1013965jKmium','\x20⏰\x20|\x20','4692908hxoDzf','map','2862520HmlZjX','uptime','9732cHnqXp','12oPpLUp','5517JzEqTI','toString'];_0x4d48=function(){return _0x1136ef;};return _0x4d48();}const _0x6d8bb3=_0x5119;(function(_0x4099c9,_0x45c9a3){const _0x65668d=_0x5119,_0x54f7ea=_0x4099c9();while(!![]){try{const _0x3b845d=-parseInt(_0x65668d(0x12d))/0x1*(parseInt(_0x65668d(0x12b))/0x2)+-parseInt(_0x65668d(0x136))/0x3*(-parseInt(_0x65668d(0x12f))/0x4)+parseInt(_0x65668d(0x130))/0x5*(-parseInt(_0x65668d(0x137))/0x6)+parseInt(_0x65668d(0x128))/0x7+-parseInt(_0x65668d(0x12c))/0x8*(-parseInt(_0x65668d(0x125))/0x9)+-parseInt(_0x65668d(0x134))/0xa+parseInt(_0x65668d(0x132))/0xb;if(_0x3b845d===_0x45c9a3)break;else _0x54f7ea['push'](_0x54f7ea['shift']());}catch(_0x43b3a5){_0x54f7ea['push'](_0x54f7ea['shift']());}}}(_0x4d48,0x5b088));function clockString(_0x34132c){const _0x2407a4=_0x5119;let _0x1d952b=isNaN(_0x34132c)?'--':Math['floor'](_0x34132c/0x36ee80),_0x1671d4=isNaN(_0x34132c)?'--':Math[_0x2407a4(0x12a)](_0x34132c/0xea60)%0x3c,_0x12ec2e=isNaN(_0x34132c)?'--':Math[_0x2407a4(0x12a)](_0x34132c/0x3e8)%0x3c;return[_0x1d952b,_0x1671d4,_0x12ec2e][_0x2407a4(0x133)](_0x5913d3=>_0x5913d3[_0x2407a4(0x126)]()[_0x2407a4(0x129)](0x2,0x0))['join'](':');}if(autobio){if(autobio===![])return;let settingstatus=0x0;if(new Date()*0x1-settingstatus>0x3e8){let _uptime=process[_0x6d8bb3(0x135)]()*0x3e8,uptimer=clockString(_uptime);await alpha[_0x6d8bb3(0x127)](_0x6d8bb3(0x12e)+uptimer+_0x6d8bb3(0x131)+status)['catch'](_0x731e31=>_0x731e31),settingstatus=new Date()*0x1;}}
 		mess = {
-			wait: '```[ ! ] Proses kak...```',
-			success: '```[ ✓ ]``` Success',
+			wait: '```[ ! ] Sedang Diproses, Mohon Tunggu...```',
+			success: '```[ ✓ ]``` Berhasil',
 			wrongFormat: 'Format salah, coba liat lagi di menu',
 			error: {
 				stick: 'Itu bukan stiker',
@@ -2145,12 +2145,12 @@ let userProcfile = `「 *USER INFO* 」
 👛 Dompet : ${checkATMuser(sender)}
 💱 Role : ${role}
 🏧 Level : ${getLevelingLevel(sender)}
-🏦 Xp : ${getLevelingXp(sender)}
+🏦 XP : ${getLevelingXp(sender)}
 
 💌 Status : ${isPremium? `Premium User` : `Free user`}
 ⏰ Expired Prem : ${isPremium ? 'Unlimited Premium' : ` ${cek.days} d, ${cek.hours} h, ${cek.minutes} m, ${cek.seconds} s`}
 👨‍🎓 Register : ${isRegister? `Done`:`Belum Daftar`}
-🚫 Baned : ${isBanned?`True`:`False`}`
+🚫 Banned : ${isBanned?`True`:`False`}`
 let papakpo = [{
 										"buttonId": `inv`,
 										"buttonText": {
@@ -2183,11 +2183,11 @@ let papako = [{
 										},{
 										"buttonId": `me`,
 										"buttonText": {
-											"displayText": "PROCFILE"
+											"displayText": "PROFILE"
 											},
 										"type": "RESPONSE"
 										}]
-								sendButLocation(from, teks , `Thank for verification 💋\n${botname}™© | By ${ownername}`,pp_userz, papako, {contextInfo: { mentionedJid: [sender]}})
+								sendButLocation(from, teks , `Terima Kasih Telah Verifikasi💋\n${botname}™© | By ${ownername}`,pp_userz, papako, {contextInfo: { mentionedJid: [sender]}})
                 break
 	case 'menu': case 'help':
 			try {
@@ -2202,7 +2202,7 @@ const media = await alpha.prepareMessage(from, content, MessageType.image, { thu
 let bacotlu = media.message["ephemeralMessage"] ? media.message.ephemeralMessage : media
 let p1 = await alpha.getStatus(sender)
 anunya = process.uptime()
-ini_anu =`𝙃𝙚𝙡𝙡𝙤 𝙄'𝙢 𝙪𝙨𝙚𝙧𝙗𝙤𝙩 👋
+ini_anu =`Hai, Aku Alphabot 👋
 
 			『 *BOT INFO*  』
 
@@ -2214,14 +2214,10 @@ ini_anu =`𝙃𝙚𝙡𝙡𝙤 𝙄'𝙢 𝙪𝙨𝙚𝙧𝙗𝙤𝙩 👋
 *🔖 Group Chat : ${giid.length}*
 *🔖 Private Chat : ${totalchat.length - giid.length}*
 *🔖 Total Chat : ${totalchat.length}*
-*🔖 Lib  : Baileys*
-*🔖 Type  : NodeJs*
 *🔖 Total hit : ${hitall}*
 *🔖 Hit today : ${hit_today.length}*
 *🔖 Speed : ${latensii.toFixed(4)} Second*
 *🔖 Runtime : ${kyun(anunya)}*
-*🔖 Battery : ${isBattre}*
-*🔖 Charging : ${isCharge}*
 
 			『 *YOUR INFO* 』
 
@@ -2232,7 +2228,7 @@ ini_anu =`𝙃𝙚𝙡𝙡𝙤 𝙄'𝙢 𝙪𝙨𝙚𝙧𝙗𝙤𝙩 👋
 *〽️ Owner : ${isOwner ? 'True' : `False`}*
 `
 if(menusimple == false){
-sendButDoc(from, ini_anu, `𝐏𝐥𝐞𝐚𝐬𝐞 𝐝𝐨𝐧'𝐭 𝐬𝐩𝐚𝐦 𝐛𝐨𝐭, 𝐩𝐚𝐮𝐬𝐞 𝟓 𝐬𝐞𝐜𝐨𝐧𝐝𝐬 𝐩𝐞𝐫 𝐜𝐨𝐦𝐦𝐚𝐧𝐝.\n𝐓𝐡𝐚𝐧𝐤𝐬!`, sender, koko, ini_mark)
+sendButDoc(from, ini_anu, `Mohon Jangan Spam Bot. Beri Jeda 5 Detik Tiap Command.\n𝐓𝐡𝐚𝐧𝐤𝐬!`, sender, koko, ini_mark)
 } else if(menusimple = true){ 
 let content1 = fs.readFileSync(`image/${thumbnail}`)
 const media1 = await alpha.prepareMessage(from, content1, MessageType.location, {thumbnail: content1})
@@ -2807,15 +2803,6 @@ alpha.sendMessage(from,  buttonMessagee, MessageType.buttonsMessage,{
 				teskny +=`\`\`\`Total Chat : ${totalchat.length}\`\`\`\n`
 				teskny +=`\`\`\`Speed :\`\`\` ${latensii.toFixed(4)} _Second_\n`
 				teskny +=`\`\`\`Runtime : ${kyun(anu)}\`\`\`\n\n` 
-				teskny +=`P H O N E  S T A T I S T I C\n`
-				teskny +=`\`\`\`Wa Whatsapp : ${wa_version}\`\`\`\n`
-				teskny +=`\`\`\`RAM : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB\`\`\`\n`
-				teskny +=`\`\`\`MCC : ${mcc}\`\`\`\n`
-				teskny +=`\`\`\`MNC : ${mnc}\`\`\`\n`
-				teskny +=`\`\`\`OS Version : ${os_version}\`\`\`\n`
-				teskny +=`\`\`\`Merk Hp : ${device_manufacturer}\`\`\`\n`
-				teskny +=`\`\`\`Versi Hp : ${device_model}\`\`\`\n`
-				teskny +=`\`\`\`Runtime : ${kyun(anu)}\`\`\``
 				alpha.sendMessage(from, teskny, text, {quoted: { key : { participant : `0@s.whatsapp.net`, "remoteJid":  '6283136505591-1614953337@g.us', "fromMe": false, "id": "B391837A58338BA8186C47E51FFDFD4A" }, "message": { "documentMessage": { "jpegThumbnail": fs.readFileSync(`image/${thumbnail}`), "mimetype": "application/octet-stream","title": `${setting.fake}`, "fileLength": "36", "pageCount": 0, "fileName": `${setting.fake}`}}, "messageTimestamp": "1614069378", "status": "PENDING"},contextInfo:{"forwardingScore":999,"isForwarded":true},sendEphemeral: true})
 break
 case 'getbio':
@@ -2982,7 +2969,7 @@ case 'bcgif':
 					for (let i of ini_ownerNumber) {
 					const vname = alpha.contacts[i] != undefined ? alpha.contacts[i].vname || alpha.contacts[i].notify : undefined
 					ini_list.push({
-					"displayName": 'Owner Alphabot',
+					"displayName": 'KIKI',
 					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${alpha.user.name}`}\nORG: SUBSCRIBE ZEEONE OFC;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 					})
 					}
@@ -2990,7 +2977,7 @@ case 'bcgif':
 					"displayName": `${ini_list.length} kontak`,
 					"contacts": ini_list 
 					}, 'contactsArrayMessage', { quoted: fkontak})
-					var ini_gopayy =`Halo @${sender.split("@")[0]} itu owner ku, jangan lupa donasi kak😇`
+					var ini_gopayy =`Halo @${sender.split("@")[0]} itu owner ku`
 var buttonss = [
 {buttonId: 'donasi', buttonText:{displayText: 'Donasi'}, type: 1},
 {buttonId: 'sewabot', buttonText:{displayText: 'Sewa'}, type: 1}
