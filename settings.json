@@ -4,15 +4,15 @@
 	"antihidetag": true,
 	"user_register": false,
 	"anti_delete" : false,
-	"anticall": true,
+	"anticall": false,
 	"prefix": ".",
 	"language":"ind",
-	"ownerNumber": "62887435047326",
-	"ownerNumberr": "62887435047326",
-	"cr": "@ZeeoneOfc",
-	"ownername": "ZeeoneOfc",
-	"botname":"Ａʟᴘʜᴀʙᴏᴛ",
+	"ownerNumber": "6285883789662",
+	"ownerNumberr": "6285883789662",
+	"cr": "Hariyono Rizki",
+	"ownername": "Hariyono Rizki",
+	"botname":"Alphabot",
 	"thumb":"thumbnail_1.jpg",
 	"fakethumb":"thumbnail_1.jpg", 
-	"fake": " 「  Ａʟᴘʜᴀʙᴏᴛ  」\nCreated By @ZeeoneOfc"
+	"fake": " 「  Alphabot  」\nCreated By Hariyono Rizki"
 }
