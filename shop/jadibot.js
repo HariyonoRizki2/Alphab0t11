@@ -1,33 +1,33 @@
 const jadibut = () =>{
 return`╭──「 📖  *PRICE JADIBOT*」
 │
-├ • *Test Jadibot [30-60m]*
+├ • *Trial Jadibot [30-60m]*
 │
-│ ⤷ *Free* 💌
+│ ⤷ *GRATIS* 💌
 │
 ├ • *Permanen*
 │
-│ ⤷ *Harga :  25k [E-Wallet]*
-│ ⤷ *Harga :  28k [Pulsa]*
+│ ⤷ *Harga :  150k [E-Wallet]*
+│ ⤷ *Harga :  155k [Pulsa]*
 │
 ├─ 「 💰  *PAYMENT* 」
 │
-│ ⤷ *Dana [Diutamakan]*
-│ ⤷ *Ovo*
-│ ⤷ *Gopay*
-│ ⤷ *Pulsa Telkom*
+│ ⤷ *DANA [Diutamakan]*
+│ ⤷ *OVO*
+│ ⤷ *GOPAY*
+│ ⤷ *Pulsa IM3 Ooredoo*
 │
 ├─ 「 👨‍💻  *RUN ON* 」
 │
-│ ⤷ *Heroku [Diutamakan]*
-│ ⤷ *Railway* 
+│ ⤷ *HEROKU [Diutamakan]*
+│ ⤷ *RAILWAY* 
 │
 ├─ 「 📝  *NOTES* 」
 │
-│ ⤷ _Tidak perlu termux_
-│ ⤷ _Minat? Hubungi 0887435047326_
+│ ⤷ _Tidak Memerlukan Termux_
+│ ⤷ _Minat? Hubungi 08563225307_
 │
-╰──「 *Thank's* 」
+╰──「 *Thank You* 」
 `
 }
 exports.jadibut = jadibut
