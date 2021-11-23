@@ -16,6 +16,7 @@ return `DONASI BISA VIA BANK / E-MONEY / PLATFORM
 	ㅁ 0856 3225 307
 
 *😺 PLATFORM*
+
 1. SAWERIA
 	ㅁ https://saweria.co/HariyonoRizki
 	ㅁ https://saweria.co/kibotz
