@@ -1,71 +1,71 @@
 exports.wait = () => {
-	return `\`\`\`[ ! ] Proses kak...\`\`\``
+	return `\`\`\`[ ! ] Sedang Diproses, Mohon Tunggu...\`\`\``
 	}
 exports.success = () => {
-	return `\`\`\`[ ✓ ]\`\`\` Selesai...`
+	return `\`\`\`[ ✓ ]\`\`\` Proses Selesai...`
 	}
 exports.successBc = () => {
-	return `\`\`\`[ ✓ ]\`\`\` Sukses Broadcast`
+	return `\`\`\`[ ✓ ]\`\`\` Broadcast Selesai`
 	}
 exports.wrongFormat = () => {
-	return `\`\`\`[ x ]\`\`\` Format salah, coba liat lagi di menu`
+	return `\`\`\`[ x ]\`\`\` Format Salah, Silahkan Cek Menu`
 	}
 exports.erorStik = () => {
-	return `\`\`\`[ x ]\`\`\` Itu bukan stiker`
+	return `\`\`\`[ x ]\`\`\` Stiker Tidak Terdeteksi`
 	}
 exports.tagStik = () => {
-	return `\`\`\`[ x ]\`\`\` Reply/tag stiker nya`
+	return `\`\`\`[ x ]\`\`\` Silahkan Reply/Tag`
 	}
 exports.erorLink = () => {
-	return `\`\`\`[ x ]\`\`\` Linknya error`
+	return `\`\`\`[ x ]\`\`\` Link/URL Error`
 	}
 exports.onlygc = () => {
-	return `\`\`\`[ x ]\`\`\` Khusus Group`
+	return `\`\`\`[ x ]\`\`\` Hanya Bisa digunakan di Group`
 	}
 exports.onlyOwner = () => {
-	return `\`\`\`[ x ]\`\`\` Khusus Owner Bot`
+	return `\`\`\`[ x ]\`\`\` Hanya Bisa Digunakan Oleh Owner`
 	}
 exports.benned = () => {
-	return `\`\`\`[ x ]\`\`\` Maaf, nomor kamu telah di blokir`
+	return `\`\`\`[ x ]\`\`\` Maaf, Nomor Kamu Telah Diblokir!`
 	}
 exports.onlygcAdmin = () => {
-	return `\`\`\`[ x ]\`\`\` Khusus Admin grup`
+	return `\`\`\`[ x ]\`\`\` Hanya Bisa Digunakan oleh Admin Group`
 	}
 exports.cariCecan = () => {
-	return `\`\`\`[ ! ]\`\`\` Mencari cecan`
+	return `\`\`\`[ ! ]\`\`\` Sedang Mencari Cecan`
 	}
 exports.cariCogan = () => {
-	return `\`\`\`[ ! ]\`\`\` Mencari cogan`
+	return `\`\`\`[ ! ]\`\`\` Sedang Mencari Cogan`
 	}
 exports.pesanBot = () => {
-	return `\`\`\`[ x ]\`\`\` Reply pesan botnya`
+	return `\`\`\`[ x ]\`\`\` Silahkan Reply Chat Botnya`
 	}
 exports.replyFoto = () => {
-	return `\`\`\`[ x ]\`\`\` Reply fotonya`
+	return `\`\`\`[ x ]\`\`\` Silahkan Reply Fotonya`
 	}
 exports.tagUser = () => {
 	return `\`\`\`[ x ]\`\`\` Tag @user`
 	}
 exports.noReply = () => {
-	return `\`\`\`[ x ]\`\`\` Pesan yang kamu reply tidak mengandung reply`
+	return `\`\`\`[ x ]\`\`\` Pesan Yang Kamu Reply, Tidak Mengandung Reply`
 	}
 exports.changeNmGc = () => {
-	return `\`\`\`[ ✓ ]\`\`\` Sukses  Mengubah Nama Grup`
+	return `\`\`\`[ ✓ ]\`\`\` Berhasil Mengganti Nama Grub`
 	}
 exports.changeDeskGc = () => {
-	return `\`\`\`[ ✓ ]\`\`\` Sukses  Mengubah Desk Grup`
+	return `\`\`\`[ ✓ ]\`\`\` Berhasil Mengganti Deskripsi Grub`
 	}
 exports.spam = (prefix, command) => {
 	return `\`\`\`[ x ]\`\`\` Example ${prefix + command} teks|jumlah`
 	}
 exports.tahta = (prefix, command) => {
-	return `\`\`\`[ x ]\`\`\` Example ${prefix + command} zeeone|ofc`
+	return `\`\`\`[ x ]\`\`\` Example ${prefix + command} test|lagi`
 	}
 exports.noteks = (prefix, command) => {
-	return `\`\`\`[ x ]\`\`\` Example ${prefix + command} zeeone`
+	return `\`\`\`[ x ]\`\`\` Example ${prefix + command} test`
 	}
 exports.botNotAdm = () => {
-	return `Jadikan bot sebagai admin u/ menggunakan perintah ini`
+	return `Jadikan Bot Sebagai Admin Grub Terlebih Dahulu!`
 	}
 exports.tryAgain = () => {
 	return `\`\`\`[ x ]\`\`\` Yah gagal, coba ulangi ^_^`
