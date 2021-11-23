@@ -1,17 +1,17 @@
 const list_price = (prefix) => {
 return `🎮 LIST GAME :
 
-${prefix}Pubg -> List Uc Pubg
+${prefix}Pubg -> List UC PUBG
 ${prefix}Ml -> List Diamond MLBB
 ${prefix}Ff -> List  Diamond FF
-${prefix}Cod -> List Cp Codm
+${prefix}Cod -> List CP Codm
 ${prefix}Aov -> List Voucher Aov
 ${prefix}Sausage -> List Candy Sausage
-${prefix}Lol -> List Wc Lol
-${prefix}Valo -> List Vp Valorant
+${prefix}Lol -> List WC Lol
+${prefix}Valo -> List VP Valorant
 
-Untuk melihat listnya ketik ${prefix}list game 
-Ex :
+Untuk Melihat List, Silahkan Ketik ${prefix}list game 
+Contoh :
 •> ${prefix}aov
 	ㅁ Untuk melihat list Voucher Aov
 `
