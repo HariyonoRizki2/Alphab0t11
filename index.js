@@ -1,4 +1,4 @@
-nonst
+const
 	{
 		WAConnection: _WAConnection,
 		MessageType,
