@@ -1,5 +1,5 @@
 const petik = '```'
-const help = (prefix, wita, wit, ucapannya2, timuu, status, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, latensiii, tekss)=> {
+const help = (prefix, wita, wit, ucapannya2, timuu, status, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensiii, tekss)=> {
 	return`┌❏ *INDONESIA TIME*
 ${petik}│◦➛ WIB : ${timuu}
 │◦➛ WITA : ${wita}
