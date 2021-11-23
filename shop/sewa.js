@@ -13,16 +13,17 @@ return `「 *PRICE LIST* 」
 
 ⬣ PRICE JADIBOT
 
-⬡ JADI BOT PERMANEN 25K
+⬡ JADI BOT PERMANEN 150K
 
 
 ⬣ MINAT? PM
-⬡ wa.me/62887435047326
+⬡ wa.me/628563225307
 
 
 NOTE : 
-Bot On 24 Jam Karna Di Run Menggunakan Heroku
-Reset Data Setiap Jam 02:00 `
+Bot Runtime 24/7 Karena Menggunakan Virtual Server Heroku
+Bot Tetap Akan Online, Selama WhatsApp Tetap Terhubung Ke Internet
+Data Akan Direset Setiap Hari Pukul 06:00 WIB `
 	}
 
 exports.pc_sewa = pc_sewa
