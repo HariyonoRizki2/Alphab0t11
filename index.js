@@ -2228,7 +2228,7 @@ ini_anu =`Hai, Aku Alphabot 👋
 *〽️ Owner : ${isOwner ? 'True' : `False`}*
 `
 if(menusimple == false){
-sendButDoc(from, ini_anu, `Mohon Jangan Spam Bot. Beri Jeda 5 Detik Tiap Command.\n𝐓𝐡𝐚𝐧𝐤𝐬!`, sender, koko, ini_mark)
+sendButDoc(from, ini_anu, `Mohon Jangan Spam Bot. Beri Jeda 5 Detik Tiap Command.\nTerima Kasih!`, sender, koko, ini_mark)
 } else if(menusimple = true){ 
 let content1 = fs.readFileSync(`image/${thumbnail}`)
 const media1 = await alpha.prepareMessage(from, content1, MessageType.location, {thumbnail: content1})
@@ -2236,8 +2236,8 @@ let bacotlu1 = media1.message["ephemeralMessage"] ? media1.message.ephemeralMess
 
 const buttons1 = [
   {buttonId: 'ownerku', buttonText: {displayText: '⋮☰ OWNER'}, type: 1},
-  {buttonId: 'statiktiknya', buttonText:{displayText: '✓ STATISTIC'}, type: 1},
-  {buttonId: 'Command', buttonText: {displayText: '❍ LIST MESSAGE'}, type: 1}
+  {buttonId: 'statiktiknya', buttonText: {displayText: '✓ STATISTIC'}, type: 1},
+  {buttonId: 'command', buttonText: {displayText: '❍ LIST MESSAGE'}, type: 1}
 ]
 
 const btn1 = {
@@ -2280,7 +2280,7 @@ case 'setlang':
          if (!isOwner && !isCreator && !mek.key.fromMe) return reply(lang.onlyOwner())
 if(args[0] == 'ind'){
 lang = ind
-reply('Sukses mengubah bahasa ke ind')
+reply('Berhasil Mengubah Ke Bahasa Indonesia')
 }else if(args[0] == 'eng'){
 lang = eng
 reply('Success changing language to eng')
@@ -2964,13 +2964,13 @@ case 'bcgif':
 					break
          case 'owner':
          case 'creator':  
-         ini_ownerNumber = [`${targetpc}@s.whatsapp.net`,`${targetpc}@s.whatsapp.net`,`${targetpc}@s.whatsapp.net`,`${targetpc}@s.whatsapp.net`,`${targetpc}@s.whatsapp.net`,`${targetpc}@s.whatsapp.net`,`${targetpc}@s.whatsapp.net`,`${targetpc}@s.whatsapp.net`]
+         ini_ownerNumber = [`${targetpc}@s.whatsapp.net`]
 					let ini_list = []
 					for (let i of ini_ownerNumber) {
 					const vname = alpha.contacts[i] != undefined ? alpha.contacts[i].vname || alpha.contacts[i].notify : undefined
 					ini_list.push({
 					"displayName": 'KIKI',
-					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${alpha.user.name}`}\nORG: SUBSCRIBE ZEEONE OFC;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${alpha.user.name}`}\nORG: OWNER ALPHABOT;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 					})
 					}
 					hehe = await alpha.sendMessage(from, {
