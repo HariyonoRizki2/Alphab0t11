@@ -1,5 +1,5 @@
 const petik = '```'
-const help = (prefix, wita, wit, ucapannya2, timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensiii, tekss)=> {
+const help = (prefix, wita, wit, ucapannya2, timuu, status, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, latensiii, tekss)=> {
 	return`┌❏ *INDONESIA TIME*
 ${petik}│◦➛ WIB : ${timuu}
 │◦➛ WITA : ${wita}
@@ -11,15 +11,6 @@ ${petik}│◦➛${ucapannya2}
 │◦➛Hari : ${thisDay}
 └❏ Tanggal : ${ini_tanggal}${petik}
 
-┌❏ *DEVICE*
-${petik}│◦➛Whatsapp : ${wa_version}
-│◦➛Merk HP : ${device_manufacturer}
-│◦➛Versi HP : ${device_model}
-│◦➛Versi OS : ${os_version}
-│◦➛RAM : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
-│◦➛MCC : ${mcc}
-└❏ MNC : ${mnc}${petik}
-
 ┌─❑「 *BOT INFO* 」
 ${petik}│◦➛ Owner : ${ownername}
 │◦➛Mode : ${status}
@@ -27,10 +18,9 @@ ${petik}│◦➛ Owner : ${ownername}
 │◦➛Total Hit : ${hit_today.length}
 │◦➛Personal Chat : ${totalchat.length - ini_gcchat.lenght}
 │◦➛Total All Chat : ${totalchat.length}
-│◦➛Group Chat : ${ini_gcchat}
-│◦➛Browser : Chrome
-│◦➛Server : Baileys
-│◦➛Version : 3.5.2${petik}
+│◦➛Browser : Safari
+│◦➛Server : Personal VPS
+│◦➛Version : 11..5.2${petik}
 ${petik}│◦➛Speed :${petik} ${latensiii} 
 ${petik}└❏ ${tekss}${petik}
 
@@ -53,14 +43,6 @@ ${petik}├❒ Allmenu
 ├❒ Telegram_sticker
 └❒ Image_effect${petik}
 
-┌❑ *ABOUT* ❑
-│
-${petik}├❒ Source
-├❒ ThanksTo
-├❒ Group_support
-└❒ Ownerbot${petik}
-
-❒ _Creator BotWea © 2K21_ ❒
 `
 }
 const convert = (prefix) => {
@@ -109,7 +91,7 @@ ${petik}├❒ ${prefix}otaku${petik} _query_
 ${petik}└❒ ${prefix}anime${petik} _random_
 `
 }
-const allmenu = (prefix, wita, wit, ucapannya2, timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensiii, tekss)  => {
+const allmenu = (prefix, wita, wit, ucapannya2, timuu, status, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensiii, tekss)  => {
 	return`❏───「 *ALPHA BOT* 」───❏
      
 ┌❏ *INDONESIA TIME*
@@ -123,25 +105,15 @@ ${petik}│◦➛${ucapannya2}
 │◦➛Hari : ${thisDay}
 └❏ Tanggal : ${ini_tanggal}${petik}
 
-┌❏ *DEVICE*
-${petik}│◦➛Whatsapp : ${wa_version}
-│◦➛Merk HP : ${device_manufacturer}
-│◦➛Versi HP : ${device_model}
-│◦➛Versi OS : ${os_version}
-│◦➛RAM : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
-│◦➛MCC : ${mcc}
-└❏ MNC : ${mnc}${petik}
-
 ┌─❑「 *BOT INFO* 」
 ${petik}│◦➛Mode : ${status}
 │◦➛Prefix : ${prefix}
 │◦➛Total Hit : ${hit_today.length}
 │◦➛Personal Chat : ${totalchat.length - ini_gcchat.lenght}
 │◦➛Total All Chat : ${totalchat.length}
-│◦➛Group Chat : ${ini_gcchat}
-│◦➛Browser : Chrome
-│◦➛Server : Baileys
-│◦➛Version : 3.5.2${petik}
+│◦➛Browser : Safari
+│◦➛Server : Personal VPS
+│◦➛Version : 11.5.2${petik}
 ${petik}│◦➛Speed :${petik} ${latensiii} 
 ${petik}└❏ ${tekss}${petik}
 
