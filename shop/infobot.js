@@ -11,7 +11,7 @@ return `ℒ⃝👾 *B O T  S T A T I S T I C*
 
 ℒ⃝👨‍💻 *C O N N E C T  W I T H  M E*
 
-⛎ Api : api.alphabot.herokuapp.com
+⛎ Api : api-alphabot.herokuapp.com
 ♈ YouTube : youtube.com/c/zeeoneofc
 ♉ Github : HariyonoRizki2.github.io
 ♊ Instagram : instagram.com/hariyonorizki_
