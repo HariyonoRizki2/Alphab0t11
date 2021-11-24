@@ -6,7 +6,7 @@ ${petik}│◦➛ WIB : ${timuu}
 │◦➛ WIT : ${wit}${petik}
 └❏ 
                           
-┌❏ HARI INI*
+┌❏ *HARI INI*
 ${petik}│◦➛ ${ucapannya2}
 │◦➛ Jam : ${timuu}
 │◦➛ Hari : ${thisDay}
