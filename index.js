@@ -140,9 +140,9 @@ SEBAGIAN LU EDIT DI SETTING.JSON
 var nomor_ovo = `08563225307\nA.N HA****** ***KI` //gk usah di ubah ya klo gk punya ntr eror
 var nomor_dana = `08563225307\nA.N HA****** ***KI` //gk usah di ubah ya klo gk punya ntr eror
 var nomor_gopay = `08563225307\nA.N HA****** ***KI` //gk usah di ubah ya klo gk punya ntr eror
-var qr_code_ovo = 'https://h.top4top.io/p_2053vk0uw1.jpg' //gk usah di ubah ya klo gk punya ntr eror
-var qr_code_dana = 'https://j.top4top.io/p_20532posd1.jpg' //gk usah di ubah ya klo gk punya ntr eror
-var qr_code_gopay = 'https://i.top4top.io/p_2053em3vh1.jpg' //gk usah di ubah ya klo gk punya ntr eror
+var qr_code_ovo = 'https://telegra.ph/file/828527eb89f7f5b9378c7.png' //gk usah di ubah ya klo gk punya ntr eror
+var qr_code_dana = 'https://telegra.ph/file/4f5e09917ce8276dc66a5.png' //gk usah di ubah ya klo gk punya ntr eror
+var qr_code_gopay = 'https://telegra.ph/file/3f5f16805fe19f016ec76.png' //gk usah di ubah ya klo gk punya ntr eror
 
 var _minggu = 'Rp 10.000,00' //Masukkan harga sewa sesuai keinginan
 var __minggu = 'Rp 15.000,00'
