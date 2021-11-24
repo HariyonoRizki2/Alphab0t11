@@ -1,15 +1,17 @@
 const petik = '```'
 const help = (prefix, wita, wit, ucapannya2, timuu, status, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensiii, tekss)=> {
-	return`┌❏ *INDONESIA TIME*
+	return`┌❏ *WAKTU INDONESIA*
 ${petik}│◦➛ WIB : ${timuu}
 │◦➛ WITA : ${wita}
-└❏ WIT : ${wit}${petik}
+│◦➛ WIT : ${wit}${petik}
+└❏ 
                           
-┌❏ *TODAY*
-${petik}│◦➛${ucapannya2}
-│◦➛Jam : ${timuu}
-│◦➛Hari : ${thisDay}
-└❏ Tanggal : ${ini_tanggal}${petik}
+┌❏ HARI INI*
+${petik}│◦➛ ${ucapannya2}
+│◦➛ Jam : ${timuu}
+│◦➛ Hari : ${thisDay}
+│◦➛ Tanggal : ${ini_tanggal}${petik}
+└❏ 
 
 ┌─❑「 *BOT INFO* 」
 ${petik}│◦➛ Owner : ${ownername}
@@ -28,20 +30,20 @@ ${petik}└❏ ${tekss}${petik}
 ┌❑ *LIST MENU* ❑
 │
 ${petik}├❒ Allmenu 
-├❒ Convertmenu
-├❒ Asupanmenu
-├❒ Downloadmenu
-├❒ Funmenu
-├❒ Makermenu
-├❒ Othermenu
-├❒ Ownermenu
-├❒ Storagemenu
-├❒ Tagmenu
-├❒ Upmenu
-├❒ Set_sticker_cmd
-├❒ Gacha_cecan
-├❒ Telegram_sticker
-└❒ Image_effect${petik}
+├❒ CONVERT MENU
+├❒ ASUPAN MENU
+├❒ DOWNLOAD MENU
+├❒ FUN MENU
+├❒ MAKER MENU
+├❒ OTHER MENU
+├❒ OWNER MENU
+├❒ STORAGE MENU
+├❒ TAG MENU
+├❒ UP MENU
+├❒ SET STICKER CMD
+├❒ GACHA CECAN
+├❒ TELEGRAM STICKER
+└❒ IMAGEEFFECT${petik}
 
 `
 }
@@ -94,16 +96,18 @@ ${petik}└❒ ${prefix}anime${petik} _random_
 const allmenu = (prefix, wita, wit, ucapannya2, timuu, status, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensiii, tekss)  => {
 	return`❏───「 *ALPHA BOT* 」───❏
      
-┌❏ *INDONESIA TIME*
+┌❏ *WAKTU INDONESIA*
 ${petik}│◦➛ WIB : ${timuu}
 │◦➛ WITA : ${wita}
-└❏ WIT : ${wit}${petik}
+│◦➛ WIT : ${wit}${petik}
+└❏ 
                           
-┌❏ *TODAY*
-${petik}│◦➛${ucapannya2}
-│◦➛Jam : ${timuu}
-│◦➛Hari : ${thisDay}
-└❏ Tanggal : ${ini_tanggal}${petik}
+┌❏ *HARI INI*
+${petik}│◦➛ ${ucapannya2}
+│◦➛ Jam : ${timuu}
+│◦➛ Hari : ${thisDay}
+│◦➛ Tanggal : ${ini_tanggal}${petik}
+└❏ 
 
 ┌─❑「 *BOT INFO* 」
 ${petik}│◦➛Mode : ${status}
@@ -655,88 +659,6 @@ ${petik}│◦ ${prefix}hidetag
 ${petik}│◦ ${prefix}upswteks
 │◦ ${prefix}upswimage
 │◦ ${prefix}upswvideo${petik}
-│
-├❑「 *NSFW & SFW* 」
-│
-${petik}│◦ ${prefix}ahegao
-│◦ ${prefix}ass
-│◦ ${prefix}bdsm
-│◦ ${prefix}blowjob
-│◦ ${prefix}blowjob2
-│◦ ${prefix}cuckold
-│◦ ${prefix}cum
-│◦ ${prefix}ero
-│◦ ${prefix}femdom
-│◦ ${prefix}foot
-│◦ ${prefix}gangbang
-│◦ ${prefix}glasses
-│◦ ${prefix}jahy
-│◦ ${prefix}manga
-│◦ ${prefix}masturbation
-│◦ ${prefix}neko
-│◦ ${prefix}orgy
-│◦ ${prefix}panties
-│◦ ${prefix}pussy
-│◦ ${prefix}tentacles
-│◦ ${prefix}thighs
-│◦ ${prefix}yuri
-│◦ ${prefix}feet
-│◦ ${prefix}lewdkemo
-│◦ ${prefix}woof
-│◦ ${prefix}gasm
-│◦ ${prefix}solo
-│◦ ${prefix}8ball
-│◦ ${prefix}goose
-│◦ ${prefix}avatar
-│◦ ${prefix}hololewd
-│◦ ${prefix}gecg
-│◦ ${prefix}holo
-│◦ ${prefix}fox_girl
-│◦ ${prefix}tits
-│◦ ${prefix}eroyuri
-│◦ ${prefix}holoyero
-│◦ ${prefix}lizard
-│◦ ${prefix}keta
-│◦ ${prefix}eron
-│◦ ${prefix}erok
-│◦ ${prefix}kemonomimi
-│◦ ${prefix}cum_jpg
-│◦ ${prefix}nsfw_avatar
-│◦ ${prefix}erofeet
-│◦ ${prefix}meow
-│◦ ${prefix}wallpaper
-│◦ ${prefix}waifu
-│◦ ${prefix}trap
-│◦ ${prefix}lewd
-│◦ ${prefix}pussy_jpg
-│◦ ${prefix}futanari
-│◦ ${prefix}lewdk
-│◦ ${prefix}solog
-│◦ ${prefix}smug
-│◦ ${prefix}cum
-│◦ ${prefix}slap
-│◦ ${prefix}les
-│◦ ${prefix}erokemo
-│◦ ${prefix}bj
-│◦ ${prefix}pwankg
-│◦ ${prefix}pat
-│◦ ${prefix}poke
-│◦ ${prefix}feed
-│◦ ${prefix}nsfw_neko_gif
-│◦ ${prefix}pussy
-│◦ ${prefix}feetg
-│◦ ${prefix}baka
-│◦ ${prefix}hug
-│◦ ${prefix}kiss
-│◦ ${prefix}tickle
-│◦ ${prefix}spank
-│◦ ${prefix}kuni
-│◦ ${prefix}classic
-│◦ ${prefix}boobs
-│◦ ${prefix}anal
-│◦ ${prefix}ngif
-│◦ ${prefix}cuddle
-│◦ ${prefix}zettai${petik}
 │
 ├❑ 「 *STC  MENU* 」
 │
