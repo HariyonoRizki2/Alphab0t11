@@ -4186,12 +4186,12 @@ break
 if (!isGroup) return reply(lang.onlygc())
 					if (!isGroupAdmins) return reply(lang.onlygcAdmin())
 					if (!isBotGroupAdmins) return reply(lang.botNotAdm())
-              if (args[0].toLowerCase() === 'on'){
+              if (args[0] == 'on'){
               if (isAntiLink) return reply(lang.anjawaUdhOn(command))
               antilink.push(from)
               fs.writeFileSync('./src/antilink.json', JSON.stringify(antilink))
               reply(lang.anjawaOn(command))
-              } else if (args[0].toLowerCase() === 'off'){
+              } else if (args[0] == 'off'){
               let anu = antilink.indexOf(from)
               antilink.splice(anu, 1)
               fs.writeFileSync('./src/antilink.json', JSON.stringify(antilink))
