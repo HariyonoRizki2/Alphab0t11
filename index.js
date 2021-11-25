@@ -174,12 +174,12 @@ let antihidetag = setting.antihidetag
 
 banChats = setting.self_mode
 autorespon = false
-offline = false
-readGc = true 
+offline = true
+readGc = false 
 readPc = false 
 antitrol = false 
 bugc = false
-autovn = true
+autovn = false
 autoketik = false
 autoregister = setting.user_register
 
