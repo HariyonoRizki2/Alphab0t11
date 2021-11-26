@@ -3549,15 +3549,15 @@ break
 								mentions(txt, men, true)
 							break
 				case 'payment':
-				let paykenekk = await getBuffer('https://telegra.ph/file/3c58eb6b1fda6c22c8668.jpg')
+				let paykenekk = await getBuffer('https://telegra.ph/file/1ac826e2054c061be350e.png')
 							sendButLocation(from, allpayment() , `Nih payment nya kak 🪀 ${enter}${enter}${botname}™© | By ${ownername}`,paykenekk,  [{"buttonId": `owner`,"buttonText": {"displayText": "OWNER"},"type": "RESPONSE"}], {})
 							break
 				case 'belipremium': case 'buypremium': case 'sewabot': case 'goprem':
-							let sewalak = await getBuffer('https://telegra.ph/file/5e96a14f1ebaee0df2e24.jpg')
+							let sewalak = await getBuffer('https://telegra.ph/file/ee6310a7a104a6a8e6740.png')
 							sendButLocation(from, pc_sewa(_minggu, __minggu, ___minggu, _bulan, _permanen, __permanen) , `Jangan klik doang harus sewa beneran 😎 ${enter}${enter}${botname}™© | By ${ownername}`,sewalak,  [{"buttonId": `payment`,"buttonText": {"displayText": "PAYMENT"},"type": "RESPONSE"}], {})
 							break
 				case 'donasi': case 'donate':
-							let donas = await getBuffer('https://telegra.ph/file/2203a91ba6216de345c3d.jpg')
+							let donas = await getBuffer('https://telegra.ph/file/2103a1f18fe0d0cc26b7a.png')
 							sendButLocation(from, donasibot() , `Jangan klik doang, donasi ya 🌝 ${enter}${enter}${botname}™© | By ${ownername}`,donas,  [{"buttonId": `qr_gopay1`,"buttonText": {"displayText": "QR GOPAY"},"type": "RESPONSE"},{"buttonId": `qr_dana1`,"buttonText": {"displayText": "QR DANA"},"type": "RESPONSE"},{"buttonId": `qr_ovo1`,"buttonText": {"displayText": "QR OVO"},"type": "RESPONSE"}], {})
 							break
 				case 'gcbot': case 'grupbot': case 'groupbot':
