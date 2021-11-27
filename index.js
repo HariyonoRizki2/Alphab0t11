@@ -6151,17 +6151,10 @@ teks = `\`\`\`「 STATISTIK BOT 」\`\`\`
 ${petik}々 Base : SELF-BOT${petik}
 ${petik}々 Lib : Baileys, 3.5.2${petik}
 ${petik}々 Prefix : ${prefix}${petik}
-${petik}々 Versi Bot : v0.0.7${petik}
+${petik}々 Versi Bot : v11.6.9${petik}
 
-${petik}々 Merk HP : ${device_manufacturer}${petik}
-${petik}々 Versi OS : ${os_version}${petik}
-${petik}々 Versi HP : ${device_model}${petik}
-${petik}々 MCC : ${mcc}${petik}
-${petik}々 MNC : ${mnc}${petik}
-${petik}々 Baterai : ${isBattre}${petik}
-${petik}々 Charger : ${isCharge}${petik}
 ${petik}々 Whatsapp : ${wa_version}${petik}
-${petik}々 Blockir : ${banned.length} Blocked${petik}
+${petik}々 Blokir : ${banned.length} Blocked${petik}
 ${petik}々 Group Chat : ${totalgroup.length} Chat${petik}
 ${petik}々 Personal Chat : ${totalkontak.length} Chat${petik}
 ${petik}々 Total Chat : ${totalchat.length} Chat${petik}
@@ -6177,15 +6170,15 @@ if (subscribezeeoneofc == "ownerku"){
 					for (let i of ini_ownerNumber) {
 					const vname_ = alpha.contacts[i] != undefined ? alpha.contacts[i].vname || alpha.contacts[i].notify : undefined
 					ini_list.push({
-					"displayName": 'Owner Alphabot',
-					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname_ ? `${vname_}` : `${alpha.user.name}`}\nORG: SUBSCRIBE ZEEONE OFC;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+					"displayName": 'KIKI',
+					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname_ ? `${vname_}` : `${alpha.user.name}`}\nORG: OWNER ALPHABOT;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 					})
 					}
 					hehe = await alpha.sendMessage(from, {
 					"displayName": `${ini_list.length} kontak`,
 					"contacts": ini_list 
 					}, 'contactsArrayMessage', { quoted: fkontak})
-					var ini_gopayy =`Halo @${sender.split("@")[0]} itu owner ku, jangan lupa donasi kak😇`
+					var ini_gopayy =`Halo @${sender.split("@")[0]} itu owner ku`
 var buttonss = [
 {buttonId: 'donasi', buttonText:{displayText: 'Donasi'}, type: 1},
 {buttonId: 'sewa_kak', buttonText:{displayText: 'Sewa'}, type: 1}
