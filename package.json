@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "dependencies": {
-    "@adiwajshing/baileys-md": "github:adiwajshing/baileys-md",
+    "@adiwajshing/baileys-md": "github:adiwajshing/baileys#multi-device",
     "async": "^3.2.1",
     "awesome-phonenumber": "^2.62.0",
     "axios": "^0.21.4",
